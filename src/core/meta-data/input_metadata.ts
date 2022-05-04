@@ -53,6 +53,11 @@ export const INTRO_METADATA = [
 
 export const SOCIAL_METADATA = [
   {
+    label: 'Website',
+    type: 'Input',
+    value: 'website',
+  },
+  {
     label: 'Linkedin',
     type: 'Input',
     value: 'linkedin',
@@ -61,11 +66,6 @@ export const SOCIAL_METADATA = [
     label: 'Github',
     type: 'Input',
     value: 'github',
-  },
-  {
-    label: 'Hackerrank',
-    type: 'Input',
-    value: 'hackerrank',
   },
   {
     label: 'HackerEarth',

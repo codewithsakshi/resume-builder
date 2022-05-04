@@ -33,6 +33,7 @@ import {
   SiLeetcode,
   SiSquarespace,
   SiTwitter,
+  SiWebflow,
 } from 'react-icons/si';
 import { FaAward, FaMediumM, FaUniversity, FaWordpressSimple, FaHackerrank } from 'react-icons/fa';
 import { IoGitBranch, IoReload } from 'react-icons/io5';
@@ -85,6 +86,7 @@ const icons = new Map([
   ['save', <MdSave />],
   ['upload', <MdCloudUpload />],
   ['reset', <IoReload />],
+  ['website', <SiWebflow />],
 ]);
 
 export function getIcon(iconName: string) {

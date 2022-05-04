@@ -50,6 +50,7 @@ const EmployeName = styled.div`
   margin: 0;
   color: ${(props) => props.theme.primaryColor};
   font-size: 1.5rem;
+  font-weight: 600;
 `;
 
 export default function LegacyTemplate() {
@@ -75,7 +76,7 @@ export default function LegacyTemplate() {
     );
 
   const labels = useLabels((state: any) => state.labels);
-
+  console.log('72', intro.profiles);
   return (
     <GridContainer>
       <GridColumn>
@@ -105,13 +106,6 @@ export default function LegacyTemplate() {
         <LineSeparator />
         <LegacyHeader Icon={getIcon('expert')} title={labels[5]} />
         <RatedPill items={[...languages, ...frameworks]} />
-        <LineSeparator />
-        <LegacyHeader Icon={getIcon('skill')} title={labels[6]} />
-        <UnratedTabs items={[...technologies, ...libraries, ...databases]} />
-
-        <LineSeparator />
-        <LegacyHeader Icon={getIcon('branch')} title={labels[7]} />
-        <UnratedTabs items={practices} />
         <LineSeparator />
         <LegacyHeader Icon={getIcon('tool')} title={labels[8]} />
         <UnratedTabs items={tools} />

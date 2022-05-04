@@ -11,7 +11,7 @@ const Role = styled.h3`
 `;
 
 const Contact = ({ icon, value }: any) => (
-  <FlexVC jc="flex-end" cGap="8px">
+  <FlexVC jc="flex-end" cGap="4px">
     {icon}
     <span>{value}</span>
   </FlexVC>
@@ -19,27 +19,17 @@ const Contact = ({ icon, value }: any) => (
 
 export function Intro({ intro, labels }: any) {
   return (
-    <Flex jc="space-between">
-      <FlexCol rGap="5px">
-        <Role>{intro.label}</Role>
-        {labels[10] && (
-          <div>
-            {labels[10]}:&nbsp;
-            <strong>{intro.relExp}</strong>
-          </div>
-        )}
-        {labels[11] && (
-          <div>
-            {labels[11]}:&nbsp;{intro.totalExp}
-          </div>
-        )}
-      </FlexCol>
-
-      <FlexCol jc="flex-end" rGap="5px">
-        <Contact icon={getIcon('mobile')} value={intro.phone} />
-        <Contact icon={getIcon('email')} value={intro.email} />
+    <div>
+      <Flex jc="space-between">
+        <FlexCol rGap="5px">
+          <Role>{intro.label}</Role>
+        </FlexCol>
+      </Flex>
+      <Flex rGap="1px" cGap="10px">
         <Contact icon={getIcon('location')} value={intro.location.city} />
-      </FlexCol>
-    </Flex>
+        <Contact icon={getIcon('email')} value={intro.email} />
+        <Contact icon={getIcon('mobile')} value={intro.phone} />
+      </Flex>
+    </div>
   );
 }

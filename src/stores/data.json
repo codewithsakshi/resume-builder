@@ -19,6 +19,11 @@
     "objective": "To work as a Frontend developer applying my knowledge in the field of Frontend design and development. I wish to work in a team of motivated individuals who wish to work towards the advancement of the company and its goals.",
     "profiles": [
       {
+        "network": "website",
+        "url": "https://sakshimittal.xyz",
+        "username": "codewithsakshi"
+      },
+      {
         "network": "linkedin",
         "username": "sakshimittal01",
         "url": "https://www.linkedin.com/in/sakshimittal01/"
@@ -29,7 +34,7 @@
         "url": "https://github.com/codewithsakshi"
       },
       {
-        "network": "Twitter",
+        "network": "twitter",
         "username": "sakshimittal01",
         "url": "https://twitter.com/sakshimittal01"
       }
@@ -46,8 +51,8 @@
       { "name": "ReactJS", "level": 4 },
       { "name": "Tailwind", "level": 4 }
     ],
-    "technologies": [{ "name": "Algorithms", "level": 3 }],
-    "libraries": [{ "name": "jQuery", "level": 3 }],
+    "technologies": [],
+    "libraries": [],
     "tools": [
       { "name": "Git", "level": 3 },
       { "name": "VS Code", "level": 3 },

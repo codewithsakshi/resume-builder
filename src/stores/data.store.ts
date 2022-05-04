@@ -15,15 +15,13 @@ const labels = [
   'Methodology / Approach',
   'Tools',
   'Education',
-  'Relevant Experience',
-  'Total Experience',
 ];
 
+console.log(userData.basics);
 export const useIntro = create(
   persist(
     (set) => ({
       intro: userData.basics,
-
       reset: (data = userData.basics) => {
         set({ intro: data });
       },
@@ -38,9 +36,11 @@ export const useIntro = create(
           })
         ),
 
-      updateProfiles: (type: string, field: string, value: string) =>
-        set(
+      updateProfiles: (type: string, field: string, value: string) => {
+        console.log('update profile called: ', field, value);
+        return set(
           produce((state: any) => {
+            console.log('profiles:', state.intro.profiles);
             const object = state.intro.profiles.find((profile) => profile.network === type);
 
             if (object) {
@@ -50,7 +50,8 @@ export const useIntro = create(
 
             state.intro.profiles.push({ network: type, [field]: value });
           })
-        ),
+        );
+      },
     }),
     {
       name: 'sprb-intro',
