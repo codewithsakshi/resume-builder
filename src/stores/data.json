@@ -1,0 +1,97 @@
+{
+  "basics": {
+    "name": "Sakshi Mittal",
+    "label": "Frontend Developer",
+    "image": "https://www.sakshimittal.xyz/profileImg.jpg",
+    "email": "sakshimittal3005@gamil.com",
+    "phone": "8878055130",
+    "url": "https://github.com/codewithsakshi",
+    "summary": "I am a Web Developer based in Gwalior, India with Two year of experience in developing responsive web applications with HTML, CSS,  Javascript, ReactJS, Tailwind CSS, and jquery.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Gwalior",
+      "countryCode": "",
+      "region": ""
+    },
+    "relExp": "1.5 years",
+    "totalExp": "1.5 Years",
+    "objective": "To work as a Frontend developer applying my knowledge in the field of Frontend design and development. I wish to work in a team of motivated individuals who wish to work towards the advancement of the company and its goals.",
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "sakshimittal01",
+        "url": "https://www.linkedin.com/in/sakshimittal01/"
+      },
+      {
+        "network": "github",
+        "username": "codewithsakshi",
+        "url": "https://github.com/codewithsakshi"
+      },
+      {
+        "network": "Twitter",
+        "username": "sakshimittal01",
+        "url": "https://twitter.com/sakshimittal01"
+      }
+    ]
+  },
+
+  "skills": {
+    "languages": [
+      { "name": "JavaScript", "level": 4 },
+      { "name": "HTML5", "level": 4 },
+      { "name": "CSS", "level": 4 }
+    ],
+    "frameworks": [
+      { "name": "ReactJS", "level": 4 },
+      { "name": "Tailwind", "level": 4 }
+    ],
+    "technologies": [{ "name": "Algorithms", "level": 3 }],
+    "libraries": [{ "name": "jQuery", "level": 3 }],
+    "tools": [
+      { "name": "Git", "level": 3 },
+      { "name": "VS Code", "level": 3 },
+      { "name": "Jira", "level": 3 }
+    ]
+  },
+
+  "work": [
+    {
+      "name": "Parakh.online",
+      "position": "Web Developer",
+      "url": "",
+      "startDate": "Dec 2020",
+      "endDate": "present",
+      "years": "1.5 years",
+      "highlights": [],
+      "summary": "* Use my extensive experience with front end development to define the structure and components for the project, making sure they are reusable\n* Keep the code quality high reviewing code from other developers and suggesting improvements\n* Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality."
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "kamla Raje Government College Gwalior",
+      "url": "",
+      "studyType": "MS",
+      "area": "Math Based",
+      "startDate": "2018",
+      "endDate": "2021",
+      "score": "75%",
+      "courses": []
+    },
+    {
+      "institution": "GD Higher Secondary Joura",
+      "url": "",
+      "studyType": "Higher Secondary",
+      "area": "Mathematics",
+      "startDate": "2017",
+      "endDate": "2018",
+      "score": "94 Percentile",
+      "courses": []
+    }
+  ],
+  "activities": {},
+
+  "volunteer": [],
+  "awards": []
+}
